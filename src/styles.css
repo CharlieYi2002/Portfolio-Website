@@ -1,0 +1,160 @@
+.App {
+  font-family: Iowan Old Style;;
+  margin: 0;
+  background: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.NAV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  position: sticky;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 40px; 
+  height: 40px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.NAV-Component {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.NAV img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Animation for text */
+.text {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 2s ease-out forwards;
+  pointer-events: none;
+}
+
+.text.animate {
+  pointer-events: auto;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.AboutMe img {
+  height: 600px;
+  width: auto;
+  margin: 20px;
+  margin-left: 0px;
+
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 30;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+}
+
+.middle-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.right-group {
+  display: flex;
+  align-items: center;
+}
+
+h1.middle-group {
+  margin: 0;
+}
+
+
+.video-container {
+  position: relative;
+  width: 90%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height: 9/16 * width) */
+  margin-top: auto; 
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1002;
+  pointer-events: auto;
+
+}
+

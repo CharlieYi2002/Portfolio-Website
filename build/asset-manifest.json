@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1900910a.chunk.css",
+    "main.js": "/static/js/main.ba3bb437.chunk.js",
+    "main.js.map": "/static/js/main.ba3bb437.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.9a31c39e.chunk.js": "/static/js/2.9a31c39e.chunk.js",
+    "static/js/2.9a31c39e.chunk.js.map": "/static/js/2.9a31c39e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f8bce9f0d885dd4f6475dc98e0485e7f.js": "/precache-manifest.f8bce9f0d885dd4f6475dc98e0485e7f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1900910a.chunk.css.map": "/static/css/main.1900910a.chunk.css.map",
+    "static/media/Git_Logo.svg": "/static/media/Git_Logo.3daf6cd1.svg",
+    "static/media/LinkedIn_Logo.svg": "/static/media/LinkedIn_Logo.bdc1b248.svg",
+    "static/media/Profile_Logo.svg": "/static/media/Profile_Logo.12a26489.svg",
+    "static/media/profile_pic.JPG": "/static/media/profile_pic.c415bae7.JPG",
+    "static/media/resume.pdf": "/static/media/resume.093ec4a9.pdf",
+    "static/media/volleyball.jpg": "/static/media/volleyball.dcf9cd2c.jpg"
+  }
+}
